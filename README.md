@@ -16,9 +16,9 @@ comment code after the fact, when I'm not racing the clock.
 
 Number of answers correct on first submission: -/- (--%)
 
-Highest finish for first half: -
+Highest finish for first half: - (not tracked, doing this in 2024)
 
-Highest finish for second half: -
+Highest finish for second half: - (not tracked, doing this in 2024)
 
 ## Usage
 
