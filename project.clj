@@ -1,6 +1,6 @@
 (defproject advent-of-code "0.1.0"
-  :description "Advent of Code 20XX Solutions"
-  :url "https://github.com/rjray/advent-20XX-clojure"
+  :description "Advent of Code 2016 Solutions"
+  :url "https://github.com/rjray/advent-2016-clojure"
   :license {:name "MIT"
             :url "https://opensource.org/license/mit/"}
   :dependencies [[org.clojure/clojure "1.11.0"]
