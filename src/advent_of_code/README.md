@@ -46,6 +46,11 @@ may lead to a more-general function for handling movement in a field.
 
 Day 3 (--/--).
 
+Part 1 was just validating triples of numbers as valid triangles. Part 2
+required taking every three rows of input and reading the numbers in columns to
+get the corresponding 3 triangle values. Here, `partition` and the `transpose`
+function in utils were all that was needed to transform the data.
+
 ## [day04.clj](day04.clj)
 
 Day 4 (--/--).
