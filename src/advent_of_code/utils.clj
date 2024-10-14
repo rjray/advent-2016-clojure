@@ -29,6 +29,21 @@
   [line]
   (map parse-long (re-seq #"[-+]?\d+" line)))
 
+(defn manhattan-dist
+  "Calculate the Manhattan Distance between two points."
+  [p1 p2]
+  (+ (abs (- (first p1) (first p2)))
+     (abs (- (last  p1) (last  p2)))))
+
+(defn first-duplicate
+  "Find first element of collection that is a duplicate"
+  [coll]
+  (reduce (fn [acc elt]
+            (if-let [val (get acc elt)]
+              (reduced elt)
+              (assoc acc elt true)))
+          {} coll))
+
 ;; Like the core time macro, but rather than printing the elapsed time it
 ;; returns a list of (result, time). Returned value is in milliseconds.
 (defmacro time-it [expr]
