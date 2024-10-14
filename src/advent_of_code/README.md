@@ -30,9 +30,17 @@ lein run -b DAY PART
 
 Day 1 (--/--).
 
+Simple tracing of a path. Derived `manhattan-dist` and `first-duplicate`
+routines from this, that were added to `utils.clj`.
+
 ## [day02.clj](day02.clj)
 
 Day 2 (--/--).
+
+Moving around a "keypad". Similar to many other move-around-a-field puzzles.
+Found that I don't need to be testing numerical indices for overflow/underflow,
+the `get-in` primitive will return `nil` when an index is out of bounds. This
+may lead to a more-general function for handling movement in a field.
 
 ## [day03.clj](day03.clj)
 
