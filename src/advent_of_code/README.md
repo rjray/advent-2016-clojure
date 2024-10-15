@@ -55,6 +55,10 @@ function in utils were all that was needed to transform the data.
 
 Day 4 (--/--).
 
+String parsing, pseudo-decryption. Nothing really novel in this day, other than
+use of `comp` and `partial`. To get the answer to part 2, one had to manually
+examine the search results.
+
 ## [day05.clj](day05.clj)
 
 Day 5 (--/--).
