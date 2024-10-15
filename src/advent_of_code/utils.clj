@@ -39,7 +39,7 @@
   "Find first element of collection that is a duplicate"
   [coll]
   (reduce (fn [acc elt]
-            (if-let [val (get acc elt)]
+            (if (get acc elt)
               (reduced elt)
               (assoc acc elt true)))
           {} coll))
