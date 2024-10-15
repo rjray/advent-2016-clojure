@@ -33,8 +33,6 @@
        (map (comp parse-long second))
        (apply +)))
 
-(def ^:private lc-letters (map (comp char (partial + 97)) (range 26)))
-
 (defn- decrypt
   "De-crypt the room name based on sector ID"
   [[name id]]
