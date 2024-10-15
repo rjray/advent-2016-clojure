@@ -1,6 +1,8 @@
 (ns advent-of-code.utils
   (:require [clojure.string :as str]
-            [clojure.java.io :as io]))
+            [clojure.java.io :as io])
+  (:import (java.security MessageDigest)
+           (java.math BigInteger)))
 
 (defn read-input
   "Read in the content of the given day-file and return as a blob"
@@ -109,3 +111,9 @@
   ([] 1)
   ([x] x)
   ([a b] (/ (* a b) (gcd a b))))
+
+;; Taken from https://gist.github.com/jizhang/4325757?permalink_comment_id=2196746#gistcomment-2196746
+(defn md5 [^String s]
+  (let [algorithm (MessageDigest/getInstance "MD5")
+        raw (.digest algorithm (.getBytes s))]
+    (format "%032x" (BigInteger. 1 raw))))
