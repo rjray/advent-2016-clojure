@@ -63,6 +63,9 @@ examine the search results.
 
 Day 5 (--/--).
 
+This lead to adding a `md5` function to utils, and playing around with lazy
+infinite sequences.
+
 ## [day06.clj](day06.clj)
 
 Day 6 (--/--).
