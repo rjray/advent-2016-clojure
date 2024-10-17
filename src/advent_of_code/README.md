@@ -70,6 +70,10 @@ infinite sequences.
 
 Day 6 (--/--).
 
+Not a lot of novel content in this one. It proved rather easy to take the list
+of lines, apply `u/transpose`, then do a count by character. The sorting of
+the frequency count was done and the answers derived from that.
+
 ## [day07.clj](day07.clj)
 
 Day 7 (--/--).
