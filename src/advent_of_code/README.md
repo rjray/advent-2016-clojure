@@ -78,6 +78,10 @@ the frequency count was done and the answers derived from that.
 
 Day 7 (--/--).
 
+Interesting puzzles. Was unable to reuse any code between parts 1 and 2 due to
+the way I did part 1. But in hindsight, I could re-do part 1 so that part 2
+could reuse most of it. Started using `reduce`+`reduced` a lot more.
+
 ## [day08.clj](day08.clj)
 
 Day 8 (--/--).
