@@ -86,6 +86,15 @@ could reuse most of it. Started using `reduce`+`reduced` a lot more.
 
 Day 8 (--/--).
 
+Took an inordinate amount of time. The puzzle wasn't that hard, the lost time
+was mostly due to spacing on how to effectly "rotate" a vector and a case
+where a vector was being converted to a list without my understanding.
+
+From this I added two new utils: `create-field` and `display`. The first is
+used for creating a "field" (matrix) of characters from input lines or from a
+single specified character. The second displays a matrix of characters as
+though on a display screen.
+
 ## [day09.clj](day09.clj)
 
 Day 9 (--/--).

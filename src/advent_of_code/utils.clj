@@ -90,7 +90,7 @@
 (defn factorize
   "Determine all prime factors of n"
   [n]
-  (loop [x n [p & ps] primes factors []]
+  (loop [x n, [p & ps] primes, factors []]
     (cond
       (= 1 x)           factors
       (zero? (mod x p)) (recur (/ x p) primes (conj factors p))
@@ -117,3 +117,17 @@
   (let [algorithm (MessageDigest/getInstance "MD5")
         raw (.digest algorithm (.getBytes s))]
     (format "%032x" (BigInteger. 1 raw))))
+
+(defn create-field
+  "Create a NxM field as a matrix (vector of vectors). Fill with `with` or nil"
+  [N M & [with]]
+  (if (seq? with)
+    ;; Ignore N/M and treat each element of `with` as a row in the field
+    (mapv vec with)
+    ;; Otherwise, use the value of `with` itself (which may be nil)
+    (vec (repeat M (vec (repeat N with))))))
+
+(defn display
+  "Display a matrix of characters, as if on a terminal or similar"
+  [lines]
+  (println (str/join "\n" (map #(str/join %) lines))))
