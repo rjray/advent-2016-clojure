@@ -112,6 +112,14 @@ No new utils code came out this one.
 
 Day 10 (--/--).
 
+This was a circuit-simulation kind of problem. The first part was to just
+identify which "bot" would be the one to compare two specific types of "chips".
+The second part involved running the system until its end and calculating the
+product of values of one "chip" from each of the output bins 0, 1, and 2.
+
+Not sure if I can pull out any of this code for utils. The techniques were
+valuable, but the code is very puzzle-specific.
+
 ## [day11.clj](day11.clj)
 
 Day 11 (--/--).
