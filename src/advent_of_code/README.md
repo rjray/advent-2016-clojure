@@ -99,6 +99,15 @@ though on a display screen.
 
 Day 9 (--/--).
 
+This one proved tricky. While part 1 went fairly smoothly with a recursive
+solution that built the entire decompressed string, part 2 would decompress
+well beyond the capacity of the process to store.
+
+The solution was quite simple once it occurred to me, and I think I could come
+up with a function that would solve both parts if I have time to try.
+
+No new utils code came out this one.
+
 ## [day10.clj](day10.clj)
 
 Day 10 (--/--).
