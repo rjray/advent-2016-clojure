@@ -124,6 +124,10 @@ valuable, but the code is very puzzle-specific.
 
 Day 11 (--/--).
 
+This was a search problem, solved by BFS. Not solved very well, though, as part
+1 took ~22 seconds and part 2 took over 25 minutes. Might be worth revisiting
+and trying an A* approach.
+
 ## [day12.clj](day12.clj)
 
 Day 12 (--/--).
