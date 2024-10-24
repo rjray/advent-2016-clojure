@@ -132,6 +132,10 @@ and trying an A* approach.
 
 Day 12 (--/--).
 
+This was an emulate-a-machine problem. Very simple, including part 2. Used the
+opportunity to get more comfortable with using keywords for this class of
+puzzle.
+
 ## [day13.clj](day13.clj)
 
 Day 13 (--/--).
