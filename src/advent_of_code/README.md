@@ -140,6 +140,15 @@ puzzle.
 
 Day 13 (--/--).
 
+Interesting puzzles. Part 1 was a simple maze-walking task with the twist that
+the maze was infinite and the wall/open status of each coordinate was a function
+of an algebraic equation and counting the bits of the base-2 representation of
+the value. This was handled by making the calculation function memoized.
+
+Part 2 was a sort of "flood-fill" puzzle, asking for how many open spaces can
+be reached within a given number of steps. Some small modifications to the
+search function were all that was needed.
+
 ## [day14.clj](day14.clj)
 
 Day 14 (--/--).
