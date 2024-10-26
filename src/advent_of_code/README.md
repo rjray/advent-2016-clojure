@@ -161,6 +161,12 @@ run, compared to 280ms for part 1.
 
 Day 15 (--/--).
 
+Surprisingly easy. Just a matter of lining up numbers with modulos such that
+each modulus came out to 0. Used an infinte sequence along with `filter` to
+iterate from 0 until something matched. Part 1 finished in 29ms, with part 2
+taking just 6s. There was probably a more mathematical approach that would have
+been even faster, but this worked.
+
 ## [day16.clj](day16.clj)
 
 Day 16 (--/--).
