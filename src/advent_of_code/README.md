@@ -171,6 +171,18 @@ been even faster, but this worked.
 
 Day 16 (--/--).
 
+Another easy one, due mostly to the way Clojure can handle operations on lists.
+Step 1 of the puzzle was to take the input and expand it to a given minimum
+length (using a modified Dragon Curve algorithm). Step 2 was to calculate a
+checksum value on the resulting data. The checksum was the easier of the steps,
+using a map structure to connect 0/1 pairs to a checksum digit and using a `for`
+comprehension to apply this.
+
+Part 1 ran in 4.7ms. Part 2 ran (essentially brute-force) with no modifications
+and took 115.4s. I suspect that there could have been a solution that pipelined
+the generation of the fill-data as well as the calculation of the checksum, but
+the brute-forcing was enough for this one.
+
 ## [day17.clj](day17.clj)
 
 Day 17 (--/--).
