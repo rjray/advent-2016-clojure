@@ -197,6 +197,12 @@ this.
 
 Day 18 (--/--).
 
+This was another fairly easy one. Used `iterate` and `take` to get the rows
+needed, then `flatten` and `frequencies` to get the count of safe tiles. Part 1
+took 23.2ms, but part 2 took 129.9s. This doesn't reflect the scaling of part
+2, so this may be worth looking at. Possibly make more of a pipeline of lazy
+sequences.
+
 ## [day19.clj](day19.clj)
 
 Day 19 (--/--).
