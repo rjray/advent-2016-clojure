@@ -187,6 +187,12 @@ the brute-forcing was enough for this one.
 
 Day 17 (--/--).
 
+Another search problem, solvable by BFS. This leads to wondering what it would
+take to create a generalized BFS function. This puzzle's twist was that there
+were essentially no walls, just doors. And whether given doors were locked or
+open was a function of an MD5 hash. There really must be a way to generalize
+this.
+
 ## [day18.clj](day18.clj)
 
 Day 18 (--/--).
