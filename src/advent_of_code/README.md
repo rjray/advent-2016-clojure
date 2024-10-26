@@ -153,6 +153,10 @@ search function were all that was needed.
 
 Day 14 (--/--).
 
+For this puzzle, I focused on tying together lazy and/or infinite sequences.
+It required re-using the MD5 function added earlier, and part 2 took 139s to
+run, compared to 280ms for part 1.
+
 ## [day15.clj](day15.clj)
 
 Day 15 (--/--).
