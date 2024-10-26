@@ -7,8 +7,7 @@
   (map #(zipmap [:disc :numpos :curpos]
                 (vector (first %)
                         (second %)
-                        (last %)
-                        (- (second %) (last %))))
+                        (last %)))
        num-lists))
 
 (defn- match-up?
