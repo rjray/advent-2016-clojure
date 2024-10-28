@@ -14,7 +14,7 @@ comment code after the fact, when I'm not racing the clock.
 
 ## Stats
 
-Number of answers correct on first submission: 36/36 (100%)
+Number of answers correct on first submission: 38/38 (100%)
 
 Highest finish for first half: - (not tracked, doing this in 2024)
 

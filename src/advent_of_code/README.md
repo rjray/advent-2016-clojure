@@ -207,6 +207,10 @@ sequences.
 
 Day 19 (--/--).
 
+This was rough. Part 1 went easily enough, part 2's initial solution ran for
+over 2 hours without ending. Tried to math it out, in the end I had to adapt a
+solution from reddit. The solution was embarassingly simple.
+
 ## [day20.clj](day20.clj)
 
 Day 20 (--/--).
