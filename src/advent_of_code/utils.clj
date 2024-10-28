@@ -31,6 +31,13 @@
   [line]
   (map parse-long (re-seq #"[-+]?\d+" line)))
 
+(defn parse-ranges
+  "Parse each string of input as a range in the form 'M-N'"
+  [ranges]
+  (->> ranges
+       (map #(str/replace % "-" " "))
+       (map parse-out-longs)))
+
 (defn manhattan-dist
   "Calculate the Manhattan Distance between two points."
   [p1 p2]
