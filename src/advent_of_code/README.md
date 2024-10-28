@@ -215,6 +215,9 @@ solution from reddit. The solution was embarassingly simple.
 
 Day 20 (--/--).
 
+Searching through ranges. Solutions performed well as-is, no optimizations
+needed. Added a new util function for parsing number ranges.
+
 ## [day21.clj](day21.clj)
 
 Day 21 (--/--).
