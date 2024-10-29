@@ -222,6 +222,13 @@ needed. Added a new util function for parsing number ranges.
 
 Day 21 (--/--).
 
+The input was a set of "instructions" for scrambling a string into a "password".
+Part 1 was straightforward and ran pretty quickly. Part 2 was to reverse the
+process and determine what plaintext corresponded to a given password. All but
+one of the instructions were easily reversed, but I just couldn't get part 2
+to work, due to the remaining instruction. In the end, just brute-forced the
+answer by scrambling ALL permutations until one produced the desired password.
+
 ## [day22.clj](day22.clj)
 
 Day 22 (--/--).
