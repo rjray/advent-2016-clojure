@@ -233,6 +233,15 @@ answer by scrambling ALL permutations until one produced the desired password.
 
 Day 22 (--/--).
 
+This day's puzzle yielded my first wrong submissions (for part 2). Part 1 was
+rather straightforward with a function from the combinatorics library for
+generating the pairs.
+
+Part 2, though, was rough. Looking on reddit, almost everyone did it visually
+by hand after printing the "map". I tried, but I did the math wrong and got
+two wrong answers before getting it right. It might be automatically-solvable
+with some use of A* and special cases, but not right now.
+
 ## [day23.clj](day23.clj)
 
 Day 23 (--/--).
