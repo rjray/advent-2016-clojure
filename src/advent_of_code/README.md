@@ -246,6 +246,9 @@ with some use of A* and special cases, but not right now.
 
 Day 23 (--/--).
 
+A return to the pseudo-assembly of day 12. Adds a new instruction, and part 2
+"hints" at a need to hand-optimize part of the input program.
+
 ## [day24.clj](day24.clj)
 
 Day 24 (--/--).
