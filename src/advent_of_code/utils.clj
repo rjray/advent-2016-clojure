@@ -128,7 +128,7 @@
 (defn create-field
   "Create a NxM field as a matrix (vector of vectors). Fill with `with` or nil"
   [N M & [with]]
-  (if (seq? with)
+  (if (or (seq? with) (vector? with))
     ;; Ignore N/M and treat each element of `with` as a row in the field
     (mapv vec with)
     ;; Otherwise, use the value of `with` itself (which may be nil)
