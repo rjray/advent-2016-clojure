@@ -266,3 +266,8 @@ TSP algorithm to it, but the brute-force ran in under 1s for both parts.
 ## [day25.clj](day25.clj)
 
 Day 25 (--/--).
+
+Another use of the assembly interpreter. It was necessary to "optimize" one
+loop, and it might have helped to optimize a later one. But the answer came in
+6.6s without the second optimization. This took much longer to finish than it
+should have, due to a bug that wasn't where I was initially looking.
