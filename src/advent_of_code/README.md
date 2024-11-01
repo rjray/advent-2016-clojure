@@ -253,6 +253,16 @@ A return to the pseudo-assembly of day 12. Adds a new instruction, and part 2
 
 Day 24 (--/--).
 
+This puzzle combined a Traveling Salesman Problem with a need for BFS. This
+would the third (fourth?) day out 24 that required BFS, so I will definitely be
+taking some time to generalize that code.
+
+For the TSP part, though, rather than integrate the TSP code I wrote for the
+2015 run ([see here](https://github.com/rjray/notebook/blob/main/writing/clojure-tsp.md)),
+I used the same brute-force method I had intially used there (permutations of
+all possible ordering of the edges). I will go back and try to fit a "proper"
+TSP algorithm to it, but the brute-force ran in under 1s for both parts.
+
 ## [day25.clj](day25.clj)
 
 Day 25 (--/--).
